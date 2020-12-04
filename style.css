@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+  }
+h1 {
+    color: #747474;
+    text-align: center;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 3em;
+}  
+  
+body {
+    background-color: #f8e4ebf8;
+}
+  
+button:hover {
+    cursor: pointer;
+}
+
+.gallery:hover {
+    
+    border: 1px solid #ff97bc;
+  }
+
+
+  div.gallery {
+    margin: 15px;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    background-color: white;
+    box-shadow: 0 0 16px gray;
+    float: left;
+    width: 240px;
+  }
+  
+  
+  div.gallery img {
+    width: 200px;
+    height: 160px;
+  }
+  
+  .galleryY{
+    margin-left: 3rem;
+  }
+
+.hidden {
+    display: none;
+}
+.vid-section, .newImg {
+    text-align: center;
+}
+
+.newPic {
+        max-height: 50%;
+        max-width: 50%;
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #747474;
+    font-size: small;
+    text-transform: uppercase;
+    border: 1.5px solid #747474;
+    border-radius: 2px;
+    padding: .5rem;
+    background-color: rgb(255, 255, 255);
+}
+button {
+    color: #747474;
+    text-transform: uppercase;
+    border: 1.5px solid #747474;
+    border-radius: 2px;
+    padding: .5rem;
+    background-color:rgb(255, 255, 255);
+}
+.hiddenButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#deletePic {
+    margin: .9em;
+}

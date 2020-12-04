@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#fcb9d0"/>
+    <meta name="Description" content="Take and save pictures on diffrent locations.">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="shortcut icon" href="img/192blamicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/192blamicon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <title>Instablam</title>
+    <script src="js/script.js" defer charset="utf-8"></script>
+</head>
+<body>
+    <header>
+        <h1>INSTABLAM</h1>
+    </header>
+    <main>
+        <article class="newImg">
+            <img class="newPic" src="" alt="" class="hidden" />
+            <p class="position"></p> 
+        </article>
+        <article class="hiddenButton">
+            <button class="hidden" id="addGallery">Add to gallery</button>
+            <button class="hidden" id="deletePic">Remove picture</button>
+            <a href="#" id="download-photo" download="selfie.png" target="_blank" title="Save Photo" class="hidden">Download</a>
+        </article> 
+        <section class="vid-section">
+            <p class="error-message"></p>
+            <video autoplay class="hidden" id="video"></video>
+            <div>
+                <button class="camera-on">Camera On</button>
+                <button class="camera-off hidden">Camera Off</button>
+                <button id="take-picture" disabled>Take picture</button>
+            </div>    
+        </section>
+        <section class="galleryY">
+                <div class="gallery">
+                    <img src="/img/perandmeiniceland.jpg" alt="icl" width="200" height="160">
+                    <p>City: Reykjavik</p>
+                    <p>Country: Iceland</p>
+                    <p>Date: 2019-12-24</p>
+                    <button class="remove">Delete</button>
+                    <a href="img/perandmeiniceland.jpg" download class="downloadImg ">Download</a>
+            </div>
+                <div class="gallery">
+                    <img src="/img/mini.JPG" alt="frog" width="200" height="160">
+                    <p>City: Stenstorp </p>
+                    <p>Country: Sweden</p>
+                    <p>Date: 2020-02-10</p>
+                    <button class="remove" id="removethis">Delete</button>
+                    <a href="img/mini.JPG" download class="downloadImg ">Download</a>
+            </div>
+        <section class="newGal">
+
+              </section>
+  
+        </section>
+
+    </main>
+
+</body>
+</html>

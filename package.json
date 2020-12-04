@@ -1,0 +1,20 @@
+{
+  "name": "instablam",
+  "version": "1.0.0",
+  "description": "instablam matilda",
+  "main": "sw.js",
+  "dependencies": {
+    "surge": "^0.21.7",
+    "webcam-easy": "^1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "surge . --domain https://matildasmedman-instablam.surge.sh/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "instablam"
+  ],
+  "author": "Matilda Smedman",
+  "license": "ISC"
+}
